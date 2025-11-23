@@ -1,0 +1,6 @@
+[Unit]
+Description=Telegram Server Monitor
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bash /home/mark/telegram-server-monitor/monitor.sh
